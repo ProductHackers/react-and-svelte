@@ -9,4 +9,4 @@ La de Svelte con `npx degit sveltejs/template svelte-app`
 Para una build muy sencilla de ambas aplicaciones, el tamaño de sus estáticos difiere bastante.
 
 - `du ./react-app/build/static`: 476K
-- `du ./svelte-app/public/build`: 72K
+- `du ./svelte-app/public/build`: 68K

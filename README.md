@@ -10,3 +10,10 @@ Para una build muy sencilla de ambas aplicaciones, el tamaño de sus estáticos 
 
 - `du ./react-app/build/static`: 476K
 - `du ./svelte-app/public/build`: 68K
+
+[2] Un poco de interactividad
+
+Si añadimos un poco de interactividad la app de React crece bastante, la de Svelte no.
+
+- du `./react-app/build/static`: 480K
+- `du ./svelte-app/public/build`: 68K

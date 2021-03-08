@@ -15,5 +15,12 @@ Para una build muy sencilla de ambas aplicaciones, el tamaño de sus estáticos 
 
 Si añadimos un poco de interactividad la app de React crece bastante, la de Svelte no.
 
-- du `./react-app/build/static`: 480K
+- `du ./react-app/build/static`: 480K
 - `du ./svelte-app/public/build`: 68K
+
+[3] Analicemos el bundle
+
+Agregamos `webpack-bundle-analyzer` en React y `rollup-plugin-visualizer` en Svelte para comparar de una forma visual los pesos de las builds de **Producción**.
+
+- React: `yarn analize`
+- Svelte: `yarn build`
